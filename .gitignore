@@ -2,3 +2,5 @@
 .idea
 .git
 venv
+*.docx
+*.xlsx
