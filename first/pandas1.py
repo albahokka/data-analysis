@@ -19,8 +19,8 @@ df['Elapsed_time_min'].plot(kind='hist', bins=20, legend=True, color='red')
 plt.show()
 
 # нужно вывести две hist в одном окне, назвать оси
-# fig, axs = plt.subplots(nrows= 2 , ncols= 1 )
-# df.hist()
-# df.plot()
-# df1['Elapsed_time_min'].plot(kind='kde')
-# df1['Elapsed_time_min'].plot(kind='hist', bins=20)
+fig, axs = plt.subplots(nrows= 2 , ncols= 1 )
+df.hist()
+df.plot()
+df1['Elapsed_time_min'].plot(kind='kde')
+df1['Elapsed_time_min'].plot(kind='hist', bins=20)
